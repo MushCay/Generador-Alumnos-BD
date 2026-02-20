@@ -169,7 +169,7 @@ function generarJSON() {
 function guardar() {
     var var1 = document.createElement("a");
     //salida = salida.replaceAll("", "\r\n");
-    var1.setAttribute("href", "data:text/plain;charset=UTF-8," + encodeURIComponent(salida));
+    var1.setAttribute("href", "data:text/plain;charset=UTF-8," + encodeURIComponent("\uFEFF" + salida));
     var opcion = document.getElementById("opcion").value;
     switch (opcion) {
         case "1": var1.setAttribute("download", "sistema_escolar.sql"); alert("Generando archivo SQL"); break;
