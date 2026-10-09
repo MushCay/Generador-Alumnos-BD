@@ -1,4 +1,8 @@
 # Generador-Alumnos-BD
+## Creadores
+<a href="https://github.com/MushCay"> @MushCay</a><br>
+
+## Descripción
 Proyecto perteneciente a la materia de Base de datos II
 Herramienta visual para generar archivos para diferentes manejadores de BD con la finalidad de llenar una tabla de 
 estudiantes con el siguiente formato:
